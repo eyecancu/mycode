@@ -20,4 +20,20 @@ def main():
 
     # display list1, which now contains juniper
     print(list1)
+
+    # create list 3
+    list3 = ["10.1.0.1", "10.2.0.1", "10.2.0.1"]
+
+    # use the append operation to append by list3
+    list1.append(list3)
+
+    # display the new complex list1
+    print(list1)
+
+    # display the list of IP addresses
+    print(list1[4])
+
+    #display the first item in the list (0th item) - first IP address
+    print(list1[4][0])
+
 main()
